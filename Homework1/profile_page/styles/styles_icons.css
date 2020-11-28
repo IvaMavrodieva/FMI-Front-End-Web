@@ -1,0 +1,53 @@
+.search-icon{
+    display: inline;
+    width: 14px;
+    
+}
+
+.commenting-profile-icon{
+    display: inline;
+    width: 1.8rem;
+    height: 1.8rem;
+    border-radius: 50%;
+    padding-right: 10px;
+    
+}
+
+.comment-icon{
+    display: inline;
+    width: 14px;
+    color: rgb(24, 203, 248);
+} 
+
+.article-profile-icon{
+    width: 2.5rem;
+    height: 2.5rem;
+}
+
+.close-icon{
+    display: inline;
+    width: 10px;
+}
+
+.like-icon{
+    width: 15px;
+    height: 15px;
+    padding-right: 5px;
+}
+
+.dislike-icon{
+    width: 15px;
+    height: 15px;
+    padding-right: 5px;
+}
+
+.side-profile img{
+    width: 5rem;
+    height: 5rem;
+    padding:5px;
+}
+
+.picture{
+    border: none;
+    border-radius: 50%;
+}

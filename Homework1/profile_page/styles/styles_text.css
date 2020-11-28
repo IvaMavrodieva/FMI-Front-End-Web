@@ -1,0 +1,21 @@
+h2{
+    font-weight: 100;    
+}
+
+h4{
+    margin: 0%;
+    padding-right: 10px;
+}
+
+p{
+    margin: 0%;
+}
+
+small{
+    color: grey;
+    margin-top: 2px;
+}
+
+* {
+    font-family: Helvetica, sans-serif;
+}
