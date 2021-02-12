@@ -1,0 +1,38 @@
+.transaction-input{
+    margin: 0.5rem;
+    border: 0.2rem solid rgb(220 188 223);
+    border-radius: 8px;
+    height: 1.5rem;
+    width: 20rem;
+}
+
+.transaction-input:focus{
+    outline: none !important;
+    border-color: rgb(201, 118, 212);
+    transition: none;
+}
+
+span{
+    font-size: large;
+    font-family: system-ui;
+}
+
+.transaction-submit{
+    background-color: rgb(139, 4, 156);
+    color: white;
+    border: none;
+    margin-bottom: 0.5rem;
+    border-radius: 20px;
+    max-width: 10rem;
+    width: 7rem;
+    height: 1.5rem; 
+}
+
+.transaction-submit:hover{
+    outline: none !important;
+}
+
+.transaction-footer{
+    display: flex;
+    justify-content: flex-end;
+}

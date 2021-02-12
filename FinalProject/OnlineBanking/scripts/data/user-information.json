@@ -1,0 +1,82 @@
+{
+    "clients": [
+        {
+            "userID": "evetUDagJWZpOHgK3cghEugNlFs1",
+            "email": "iva.mav.1998@abv.bg",
+            "phone": "+02 3223 4333",
+            "accounts": [
+                {
+                    "name": "CURRENT ACCOUNT - BGN BG343423423423423423432",
+                    "balance": "63.42",
+                    "currency": "BGN",
+                    "type": "current"
+                },
+                {
+                    "name": "SAVING ACCOUNT - BGN",
+                    "balance": "6.42",
+                    "currency": "BGN",
+                    "type": "saving"
+                }
+            ],
+            "transactions": [
+                {
+                    "currency": "BGN",
+                    "debit": "333.42",
+                    "credit": "",
+                    "details": "474836XXXXXXXXXXX2943 ТЕГЛЕНЕ НА ATM 02.02.2021 18:38"
+                },
+                {
+                    "currency": "BGN",
+                    "debit": "3.42",
+                    "credit": "",
+                    "details": "474836XXXXXXXXXXX2943 ТЕГЛЕНЕ НА ATM 02.02.2021 18:38"
+                },
+                {
+                    "currency": "BGN",
+                    "debit": "",
+                    "credit": "30.00",
+                    "details": "ЗАРЕЖДАНЕ НА СМЕТКА 47483634234XXXX 02.02.2021 18:38"
+                },
+                {
+                    "currency": "BGN",
+                    "debit": "35.42",
+                    "credit": "",
+                    "details": "474836XXXXXXXXXXX2943 ТЕГЛЕНЕ НА ATM 02.02.2021 18:38"
+                }
+            ]
+        },
+        {
+            "userID": "d9bSz5FB04Re0I0IgnYlUefto9Q2",
+            "email": "ivanka@abv.bg",
+            "phone": "+02 3226 6666",
+            "accounts": [
+                {
+                    "name": "CURRENT ACCOUNT - BGN BG343423423423423423432",
+                    "balance": "143.42",
+                    "currency": "BGN",
+                    "type": "current"
+                },
+                {
+                    "name": "SAVING ACCOUNT - BGN",
+                    "balance": "116.42",
+                    "currency": "BGN",
+                    "type": "saving"
+                }
+            ],
+            "transactions": [
+                {
+                    "currency": "BGN",
+                    "debit": "333.42",
+                    "credit": "",
+                    "details": "474836XXXXXXXXXXX2943 ТЕГЛЕНЕ НА ATM 02.02.2021 18:38"
+                },
+                {
+                    "currency": "BGN",
+                    "debit": "",
+                    "credit": "32.50",
+                    "details": "474836XXXXXXXXXXX2943 ПРЕВОД 02.02.2021 18:38"
+                }
+            ]
+        }
+    ]
+}

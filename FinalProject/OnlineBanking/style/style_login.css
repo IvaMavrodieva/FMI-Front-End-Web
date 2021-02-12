@@ -1,0 +1,179 @@
+html, body {
+    min-height: 100%;
+    height: 100%;
+    margin:0;
+}
+
+.leftHalf {  
+    width: 40%;
+    height: 100%;
+    position: absolute;
+    left: 0; 
+ }
+
+ .rightHalf {
+    width: 60%;
+    height: 100%;
+    position: absolute;
+    right: 0; 
+ }
+
+ img{
+     width: 100%;
+     height: 100%;
+ }
+
+ h3{
+     color:rgb(139, 4, 156);
+ }
+
+ .container{
+
+    background-color: white;
+    border: 0.2rem solid  rgb(139, 4, 156);
+    border-radius: 15px;
+    display: flex;
+    margin: 16% 10% 20% 20%;
+    height: 21rem;
+ }
+
+ .container-register{
+    background-color: white;
+    border: 0.2rem solid  rgb(139, 4, 156);
+    border-radius: 15px;
+    display: flex;
+    margin: 16% 10% 20% 20%;
+    height: 25rem;
+}
+
+ .login-input {
+    text-align: left;
+    margin-top: 1.5rem;
+    background: transparent;
+    border: none;
+    border-bottom: 1.5px solid rgb(139, 4, 156);
+    width: 100%;
+    outline: none;
+}
+
+.submit{
+    background-color: rgb(139, 4, 156);
+    color: white;
+    border: none;
+    border-radius: 20px;
+    margin-top: 2rem;
+    max-width: 10rem;
+    width: 7rem;
+    height: 1.5rem; 
+}
+
+.submit:hover{
+    outline: none !important;
+    background-color: rgb(88, 4, 99);
+}
+
+footer{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+    margin-bottom: 0;
+}
+
+.form-login{
+    width: 100%;
+    height: 80%;
+    padding:2rem;
+}
+
+header{
+    width: 100%;
+    display: inline-flex;
+    background : linear-gradient(-100deg,white 10%,rgb(147, 3, 167) 90%);
+    margin-top: 3rem;
+}
+
+.logo-img{
+    width: 5rem;
+    height: 5rem;
+}
+
+.logo-name{
+   color: white;
+}
+
+.form-register{
+    width: 100%;
+    height: 80%;
+    padding:2rem;
+}
+
+.errors{
+    color: red;
+    font-size: 13px;
+    visibility: hidden;
+}
+
+@media only screen and (max-width:900px){
+    .leftHalf {  
+        width: 60%;
+        height: 100%;
+        position: absolute;
+        left: 0rem; 
+     }
+
+    .rightHalf {
+        width: 40%;
+        height: 100%;
+        position: absolute;
+        right: 0; 
+     }
+}
+
+@media only screen and (max-width: 600px){
+
+    .leftHalf {  
+        width: 100%;
+        height: 100%;
+        position: absolute;
+        left: 0; 
+     }
+
+    .rightHalf {
+        width: 0;
+        height: 0;
+        position: static;
+     }
+
+     .container{
+         margin: 7rem;
+     }
+
+     .container-register{
+        margin: 7rem;
+      
+    }
+}
+
+@media only screen and (max-width: 420px){
+
+    .leftHalf {  
+        width: 100%;
+        height: 100%;
+        position: absolute;
+        left: 0; 
+     }  
+
+    .rightHalf {
+        width: 0;
+        height: 0;
+        position: static;
+     }
+ 
+     .container{
+         margin: 2.5rem;
+     } 
+
+     .container-register{
+        margin: 2.5rem;
+    }
+}

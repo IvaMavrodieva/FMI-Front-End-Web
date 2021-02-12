@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style/style_index.css">
+    <title>iBank personal account</title>
+</head>
+
+<body>
+    <div id="index" class="root">
+        <nav class="menu">
+            <section class="menu-section-phone">
+                <img class="menu-photo" src="style/images/phone.png">
+                <label name="phone" class="phone">+02 3223 4333</label>
+            </section>
+            <section class="menu-section-message">
+                <img class="menu-photo" src="style/images/message-icon.png">
+                <label>Feedback</label>
+            </section>
+            <button class="button-menu" onclick="location.href='/transactions'">Create new payment</button>
+            <button class="button-menu button-margin" id="logout">Logout</button>
+        </nav>
+
+        <header class="logo">
+            <img class="logo-img" src="style/images/logo.jpg">
+            <h1 class="logo-name">iBank</h1>
+        </header>
+
+        <h3 name="salut" class="salut">Welcome to online banking with iBank</h3>
+        <div class="rightHalf">
+            <section name="section-account" class="account-info">
+
+                <div name="account" class="account">
+                    <h4>Your account</h4>
+                    <hr>
+                    <div name="balance" class="balance">
+                        <div name="balance-money" class="balance-money">
+                            <h4 class="currency currency-margin">BGN</h4>
+                            <h4 class="money">0.00</h4>
+                        </div>
+                        <div name="balance-account" class="balance-account">
+                            <h4 class="account-name">NO CURRENT ACCOUNTS</h4>
+                        </div>
+                    </div>
+                    <hr>
+                </div>
+            </section>
+            <section name="section-transactions" class="account-info">
+                <div name="account-transactions" class="account">
+                    <h4>All Transactions</h4>
+                    <header class="transaction-desc">
+                        <small class="currency desc-flex1">Currency</small>
+                        <small class="desc-flex1">Debit</small>
+                        <small class="desc-flex1">Credit</small>
+                        <small class="details desc-flex4">Details</small>
+                    </header>
+
+                    <div name="transactions" class="transactions">
+                        <div class="transaction-money currency">
+                            <h4>-</h4>
+                        </div>
+                        <div class="transaction-money debit">
+                            <h4>-</h4>
+                        </div>
+                        <div class="transaction-money credit">
+                            <h4>-</h4>
+                        </div>
+                        <div class="transaction-details">
+                            <h4>-</h4>
+                        </div>
+                    </div>
+                    <hr>
+                </div>
+            </section>
+        </div>
+        <div class="leftHalf">
+            <section class="offers">
+                <h4>Special offer</h4>
+                <hr>
+                <article class="news">
+                    <img class="news-photo" src="style/images/news3.jpg">
+                    <p class="news-offer">From November 15, 2021 our clients can take advantage
+                        of the opportunity to issue a debit card and open a current account through our
+                        the Internet banking.</p>
+                </article>
+                <hr>
+                <article class="news">
+                    <img class="news-photo" src="style/images/foodpanda.jpg">
+                    <p class="news-offer">Use your debit or credit Visa card from iBank and win
+                        10% for each order! Make an order from Foodpanda at a minimum value of BGN 20,
+                        not higher than BGN 50 and get 10% back.</p>
+                </article>
+                <hr>
+                <article class="news">
+                    <img class="news-photo" src="style/images/news2.jpg">
+                    <p class="news-offer">In the next two weeks, users of iBank Smart, iBank's mobile
+                        banking, will be able to test the latest functionality of the funds transfer
+                        application only by mobile number.</p>
+                </article>
+            </section>
+        </div>
+    </div>
+</body>
+<script src="https://www.gstatic.com/firebasejs/8.2.6/firebase-app.js"></script>
+<script src="https://www.gstatic.com/firebasejs/8.2.6/firebase-auth.js"></script>
+<script src="https://www.gstatic.com/firebasejs/8.2.6/firebase-analytics.js"></script>
+<script src="https://www.gstatic.com/firebasejs/8.2.6/firebase-database.js"></script>
+<script src="scripts/Log.js"></script>
+<script src="scripts/Proccess_transaction.js"></script>
+<script src="scripts/AccessData.js"></script>
+</html>

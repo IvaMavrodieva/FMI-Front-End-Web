@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style/style_login.css">
+    <title>Login</title>
+</head>
+
+<body>
+    <div class="root">
+        <div class="leftHalf">
+            <header>
+                <img class="logo-img" src="style/images/logo.jpg">
+                <h1 class="logo-name">iBank</h1>
+            </header>
+            <div class="container">
+                <form id="form-login" class="form-login">
+                    <h3>Login</h3>
+                    <div>
+                        <input name="email" class="login-input" placeholder="Email"><br>
+                        <input name="password" class="login-input" placeholder="Password" type="password" autocomplete="on">
+                    </div>
+
+                    <footer>
+                        <input class="submit" type="submit"><br>
+                        <a href="Register_page.html" title="Create account for tracking your balance">Create account</a>
+                    </footer>
+                </form>
+            </div>
+        </div>
+        <div class="rightHalf">
+            <img src="style/images/homepage.jpg">
+        </div>
+    </div>
+</body>
+<script src="https://www.gstatic.com/firebasejs/8.2.6/firebase-app.js"></script>
+<script src="https://www.gstatic.com/firebasejs/8.2.6/firebase-auth.js"></script>
+<script src="https://www.gstatic.com/firebasejs/8.2.6/firebase-analytics.js"></script>
+<script src="https://www.gstatic.com/firebasejs/8.2.6/firebase-database.js"></script>
+<script src="scripts/AccessData.js"></script>
+<script src="scripts/Log.js"></script>
+</html>

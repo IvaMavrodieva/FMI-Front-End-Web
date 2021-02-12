@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style/style_index.css">
+    <link rel="stylesheet" href="style/style_transactions.css">
+    <title>iBank - make transaction</title>
+</head>
+<body>
+    <div id="transaction-page" class="root">
+        <nav class="menu">
+            <section class="menu-section-phone">
+                <img class="menu-photo" src="style/images/phone.png">
+                <label name="phone" class="phone">+02 3223 4333</label>
+            </section>
+            <section class="menu-section-message">
+                <img class="menu-photo" src="style/images/message-icon.png">
+                <label>Feedback</label>
+            </section>
+            <button class="button-menu" onclick="location.href='/Index'">Account information</button>
+            <button class="button-menu button-margin" id="logout">Logout</button>
+        </nav>
+        <header class="logo">
+            <img class="logo-img" src="style/images/logo.jpg">
+            <h1 class="logo-name">iBank</h1>
+        </header>
+        <div class="rightHalf">
+            <section name="section-account" class="account-info">
+                <div name="account" class="account">
+                    <h4>Make transaction</h4>
+                    <hr>
+                    <form id="transaction-form">
+                        <div>
+                            <span>Choose account</span>
+                            <select name="account-options" class="transaction-input"></select><br>
+                            <span>Beneficiary’s name</span>
+                            <input class="transaction-input" name="beneficiary" type="text"/><br>
+                            <snap>IBAN</span>
+                            <input class="transaction-input" name="IBAN" type="text" /><br>
+                            <span>Amount</span>
+                            <input class="transaction-input" name="amount" type="text"><br>
+                            <span>Details for payment</span>
+                            <input class="transaction-input" name="details" type="text"><br>
+                        </div>
+                        <footer class="transaction-footer">
+                            <input class="transaction-submit" type="submit">
+                        </footer>
+                    </form>
+                </div>
+            </section>
+        </div>
+        <div class="leftHalf">
+            <section class="offers">
+                <h4>Special offer</h4>
+                <hr>
+                <article class="news">
+                    <img class="news-photo" src="style/images/news3.jpg">
+                    <p class="news-offer">From November 15, 2021 our clients can take advantage
+                        of the opportunity to issue a debit card and open a current account through our
+                        the Internet banking.</p>
+                </article>
+                <hr>
+                <article class="news">
+                    <img class="news-photo" src="style/images/foodpanda.jpg">
+                    <p class="news-offer">Use your debit or credit Visa card from iBank and win
+                        10% for each order! Make an order from Foodpanda at a minimum value of BGN 20,
+                        not higher than BGN 50 and get 10% back.</p>
+                </article>
+                <hr>
+                <article class="news">
+                    <img class="news-photo" src="style/images/news2.jpg">
+                    <p class="news-offer">In the next two weeks, users of iBank Smart, iBank's mobile
+                        banking, will be able to test the latest functionality of the funds transfer
+                        application only by mobile number.</p>
+                </article>
+            </section>
+        </div>
+    </div>
+</body>
+<script src="https://www.gstatic.com/firebasejs/8.2.6/firebase-app.js"></script>
+<script src="https://www.gstatic.com/firebasejs/8.2.6/firebase-auth.js"></script>
+<script src="https://www.gstatic.com/firebasejs/8.2.6/firebase-analytics.js"></script>
+<script src="https://www.gstatic.com/firebasejs/8.2.6/firebase-database.js"></script>
+<script src="scripts/Log.js"></script>
+<script src="scripts/Proccess_transaction.js"></script>
+<script src="scripts/AccessData.js"></script>
+</html>

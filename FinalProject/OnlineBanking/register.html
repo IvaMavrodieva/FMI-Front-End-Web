@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style/style_login.css">
+    <title>Register</title>
+</head>
+
+<body>
+
+    <div class="root">
+
+        <div class="leftHalf">
+            <header>
+                <img class="logo-img" src="style/images/logo.jpg">
+                <h1 class="logo-name">iBank</h1>
+            </header>
+
+            <div class="container-register">
+                <form id="form-register" class="form-register">
+                    <h3>Register</h3>
+                    <div>
+                        <input name="email" class="login-input" placeholder="Email"><br>
+                        <span class="errors" id="email-error">*</span>
+                        <input name="username" class="login-input" placeholder="Username">
+                        <span class="errors" id="username-error">*</span>
+                        <input name="password" class="login-input" placeholder="Password" type="password"><br>
+                        <span class="errors" id="password-error">*</span>
+                        <input name="repeat-password" class="login-input" placeholder="Repeat Password" type="password">
+                        <span class="errors" id="v-password-error">*</span>
+                    </div>
+                    <footer>
+                        <input class="submit" type="submit">
+                    </footer>
+                </form>
+            </div>
+        </div>
+        <div class="rightHalf">
+            <img src="style/images/homepage.jpg">
+        </div>
+    </div>
+</body>
+<script src="https://www.gstatic.com/firebasejs/8.2.6/firebase-app.js"></script>
+<script src="https://www.gstatic.com/firebasejs/8.2.6/firebase-auth.js"></script>
+<script src="https://www.gstatic.com/firebasejs/8.2.6/firebase-analytics.js"></script>
+<script src="https://www.gstatic.com/firebasejs/8.2.6/firebase-database.js"></script>
+<script src="scripts/Log.js"></script>
+<script src="scripts/AccessData.js"></script>
+</html>
