@@ -8,6 +8,6 @@ function proccessTransaction(input,uid){
     let amount = input["amount"].value;
     let details = input["details"].value;
 
-    alert("Transactions complited! " + amount + " will be charged from " + account + " account.");
+    alert("Transactions completed! " + amount + " will be charged from " + account + " account.");
 }
 
